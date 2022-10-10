@@ -10,4 +10,7 @@ python3 -m django startproject {project name}
 python manage.py startapp hello 
   proje altına app ekliyoruz
 
+python manage.py runserver
+  proje çalışır
+
 
