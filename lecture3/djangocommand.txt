@@ -1,0 +1,13 @@
+sudo pip3 install django
+ ile yükleme yapıyoruz
+
+django-admin startproject lecture3 
+    yeni proje açıyor, altına app ler açacağız. ama bu komut mac de çalışmadı, path sorunu var django-admin için
+
+python3 -m django startproject {project name}
+  proje için bu komutu kullanıyoruz
+
+python manage.py startapp hello 
+  proje altına app ekliyoruz
+
+
